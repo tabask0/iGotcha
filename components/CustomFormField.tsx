@@ -16,7 +16,6 @@ import { Input } from "@/components/ui/input";
 import { Control } from "react-hook-form";
 import { FormFieldType } from "./forms/patientForm";
 import Image from "next/image";
-import isE164Number from "../node_modules/react-phone-number-input/modules/helpers/isE164Number";
 
 interface CustomProps {
   control: Control<any>;
